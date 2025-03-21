@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="../js/lightbox.js"></script>
+</head>
+
+<body>
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <img width="64" height="64"
+                src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-home-stay-at-home-flatart-icons-solid-flatarticons.png"
+                alt="external-home-stay-at-home-flatart-icons-solid-flatarticons" />
+        </div>
+        <a href="../index.html" onclick="menu()">Acasa</a>
+        <a href="../#despre">Știați că?</a>
+        <a href="../#istorie">Din istoria localității</a>
+        <a href="../pages/personalitati.html" onclick="menu()">Personalităţi</a>
+        <a href="../pages/institutii.html" onclick="menu()">Instituții</a>
+        <a href="../pages/galerie.html" onclick="menu()">Galerie</a>
+        <a href="../pages/proecte.html" onclick="menu()">Proiecte</a>
+        <a href="../pages/contacte.html" onclick="menu()">Contacte</a>
+    </navbar>
+
+    <title>Contacte</title>
+
+    <main id="main">
+        <section id="contacte">
+
+
+            <h1 class="centered">Contacte</h1>
+            <a href="../index.html" class="link-home">
+                <i class="fas fa-arrow-left"> Pagina Principală</i>
+            </a>
+            </br>
+            </br>
+
+            <b>Telefon:</b>
+            <a href="tel:+373 68044619"> +373 68044619</a>
+            <b>Adresa: </b>
+            <span>Str. Ștefan cel Mare</span>
+            <b>E-mail:</b>
+            <a href="aicuza2025@gmail.com"> aicuza2025@gmail.com</a>
+            </br>
+            </br>
+
+            <div class="row">
+                <div class="col-50">
+
+                    <div class="formular-container">
+                        <form method="post" action="https://sheetdb.io/api/v1/dwszllx21332y">
+                            </br>
+                            <h5>Lasă un mesaj</h5>
+                            <input type="text" id="nume" name="data[nume]" placeholder="Nume">
+                            <br />
+                            <input type="email" id="email" name="data[email]" placeholder="Email">
+                            <br />
+                            <textarea type="text" id="mesaj" rows="4" placeholder="Mesaj" name="data[mesaj]"></textarea>
+                            <br />
+                            <input type="submit" id="transmite" value="Transmite">
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                <table class="styled-table">
+                    <tr>
+                        <td>Nr.Ord.</td>
+                        <td>Contact</td>
+                        <td>Telefon</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Primaria</td>
+                        <td>0-299-53-238</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Liceul</td>
+                        <td>0-299-53-293</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Grădinița N1</td>
+                        <td>0-299-53-344</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Grădinița N2</td>
+                        <td>0-299-53-348</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>OMF</td>
+                        <td>0-299-53-233</td>
+                    </tr>
+                </table>
+                </div>
+
+        </section>
+
+        <section>
+            <div>
+                </br>
+                <h1 class="centered">Ne aflăm aici</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44666.20323410861!2d28.414806888957106!3d45.59782745016352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b706981a26ac7d%3A0x7ab00f8c2b44a976!2sAlexandru%20Ioan%20Cuza%2C%20Moldova!5e0!3m2!1sro!2s!4v1627648877770!5m2!1sro!2s"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="titlu-footer">
+                Acest website a fost realizat în cadrul competiției
+                <br>
+                „Tekwill Junior Ambassadors” organizată de proiectul
+                <br>
+                „Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.
+                </br>
+                2025
+            </div>
+            <div class="centered">
+                <a href="https://www.facebook.com/groups/219243765506177/" target="_blank">
+                    <img src="../images/fb.png" />
+                </a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
